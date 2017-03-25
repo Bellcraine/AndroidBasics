@@ -4,11 +4,9 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-
 /**
  * Created by Bellcraine on 22.03.2017.
  */
-
 
 public class MainActivity extends AppCompatActivity{
 

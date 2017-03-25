@@ -9,6 +9,5 @@
     tools:context="at.technikumwien.birthdaynotifier.MessageActivity"
     android:padding="16dp"
     android:gravity="center"
-    android:text="Your message"
     style="@style/TextAppearance.AppCompat.Headline"
     />

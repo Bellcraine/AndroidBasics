@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="16dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_gravity="center">
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
@@ -14,15 +15,29 @@
             android:id="@+id/message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Please enter your message here"
+            android:hint="@string/hint_message"
+            android:drawableLeft="@drawable/ic_textsms_black_24dp"
+            android:drawablePadding="16dp"
+            android:drawableTint="@color/colorAccent"
             />
 
     </android.support.design.widget.TextInputLayout>
 
     <Button
-        android:id="@+id/send"
+        android:id="@+id/send_Activity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send"/>
+        android:text="@string/button_send_activity"
+        android:textColor="@color/colorBlack"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+    <Button
+        android:id="@+id/send_Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send_fragment"
+        android:textColor="@color/colorBlack"
+        />
 
 </LinearLayout>

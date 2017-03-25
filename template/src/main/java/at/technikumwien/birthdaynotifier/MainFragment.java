@@ -1,11 +1,8 @@
 package at.technikumwien.birthdaynotifier;
 
 import android.support.annotation.Nullable;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,8 +12,19 @@ import android.widget.EditText;
 
 public class MainFragment extends Fragment {
 
+    private static final String KEY_MESSAGE = "message";
+
     private EditText message;
-    private Button send;
+    private Button sendActivity;
+    private Button sendFragment;
+
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString(KEY_MESSAGE, message.getText().toString());
+    }
+
 
     @Nullable
     @Override
@@ -30,26 +38,45 @@ public class MainFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         message = (EditText) getView().findViewById(R.id.message);
-        send = (Button) getView().findViewById(R.id.send);
+        sendActivity = (Button) getView().findViewById(R.id.send_Activity);
+        sendFragment = (Button) getView().findViewById(R.id.send_Fragment);
 
-        send.setOnClickListener(new View.OnClickListener() {
+
+        if(savedInstanceState != null) {
+            message.setText(savedInstanceState.getString(KEY_MESSAGE));
+        }
+
+
+        sendActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(MessageActivity.getIntent(getContext(), message.getText().toString()));
             }
         });
+
+
+        sendFragment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.container, MessageFragment.getFragment(message.getText().toString()))
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
+
     }
 
 
     /*
-    send.setOnClickListener(new View.OnClickListener() {
+    sendActivity.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             Log.i("MainFragment", "Send Button was clicked. Message was: " + message.getText().toString());
-            Snackbar.make(send, message.getText().toString(), Snackbar.LENGTH_LONG).show();
+            Snackbar.make(sendActivity, message.getText().toString(), Snackbar.LENGTH_LONG).show();
         }
     }
     */
-
 
 }

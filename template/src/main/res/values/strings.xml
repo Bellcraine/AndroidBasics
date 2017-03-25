@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Birthday Notifier</string>
+    <string name="hint_message">"Please enter your message here"</string>
+    <string name="button_send_activity">Send (Activity)</string>
+    <string name="button_send_fragment">Send (Fragment)</string>
 </resources>

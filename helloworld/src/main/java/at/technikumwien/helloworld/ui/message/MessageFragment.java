@@ -23,7 +23,7 @@ public class MessageFragment extends Fragment {
         // and add your data to it. Then call setArguments()
         // on the fragment.
         Bundle args = new Bundle();
-        args.putStringArrayList(EXTRA_MESSAGE, message);
+        args.putString(EXTRA_MESSAGE, message);
         fragment.setArguments(args);
 
         return fragment;

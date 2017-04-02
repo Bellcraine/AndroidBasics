@@ -16,10 +16,12 @@ class ContactAdapter extends RecyclerView.Adapter<ContactViewHolder> {
 
     private List<String> nameList = Collections.emptyList();
 
+
     public void setLists(List<String> nameList) {
         this.nameList = nameList;
         notifyDataSetChanged();
     }
+
 
     @Override
     public ContactViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -29,13 +31,16 @@ class ContactAdapter extends RecyclerView.Adapter<ContactViewHolder> {
         return new ContactViewHolder(itemView);
     }
 
+
     @Override
     public void onBindViewHolder(ContactViewHolder holder, int position) {
         holder.update(nameList.get(position));
     }
 
+
     @Override
     public int getItemCount() {
         return nameList.size();
     }
+
 }

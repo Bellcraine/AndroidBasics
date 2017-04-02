@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(button, "FAB wurde geklickt", Snackbar.LENGTH_LONG).show();
+                Snackbar.make(button, "FAB wurde angeklickt", Snackbar.LENGTH_LONG).show();
                 onContactsLoaded(Arrays.asList(
                         "Max Mustermann",
                         "Maria Musterfrau",
@@ -47,17 +47,13 @@ public class MainActivity extends AppCompatActivity {
                         "Stefanie Musterfrau",
                         "Thomas Müller",
                         "Sarah Huber",
-                        "Massiv Extrem Langer Name"
+                        "Beinahe Unglaublich Langer Name"
                 ));
             }
         });
 
-
-
-
-
-
     }
+
 
     public void onContactsLoaded(List<String> nameList) {
         if (nameList.size() > 0)

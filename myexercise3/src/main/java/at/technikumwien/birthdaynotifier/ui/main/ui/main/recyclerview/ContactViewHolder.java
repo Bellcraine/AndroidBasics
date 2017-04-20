@@ -29,7 +29,6 @@ class ContactViewHolder extends RecyclerView.ViewHolder {
         name = (TextView) itemView.findViewById(R.id.name);
         birthday = (TextView) itemView.findViewById(R.id.birthday);
 
-
         // Show a Snackbar when the card view is clicked
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -20,7 +20,7 @@ import java.util.List;
 
 import at.technikumwien.birthdaynotifier.R;
 import at.technikumwien.birthdaynotifier.data.model.Contact;
-import at.technikumwien.birthdaynotifier.ui.main.recyclerview.ContactAdapter;
+import at.technikumwien.birthdaynotifier.ui.main.ui.main.recyclerview.ContactAdapter;
 import at.technikumwien.birthdaynotifier.util.Utils;
 
 public class MainActivity extends AppCompatActivity {

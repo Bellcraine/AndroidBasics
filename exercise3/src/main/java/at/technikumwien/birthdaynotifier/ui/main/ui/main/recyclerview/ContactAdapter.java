@@ -1,4 +1,4 @@
-package at.technikumwien.birthdaynotifier.ui.main.recyclerview;
+package at.technikumwien.birthdaynotifier.ui.main.ui.main.recyclerview;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -9,6 +9,7 @@ import java.util.Collections;
 import java.util.List;
 
 import at.technikumwien.birthdaynotifier.R;
+import at.technikumwien.birthdaynotifier.data.model.Contact;
 
 /**
  * Please read the {@link RecyclerView.Adapter} java docs.
@@ -16,11 +17,11 @@ import at.technikumwien.birthdaynotifier.R;
 public class ContactAdapter extends RecyclerView.Adapter<ContactViewHolder> {
 
     // At first, we have no items, therefore we can set an empty list
-    private List<String> contactList = Collections.emptyList();
+    private List<Contact> contactList = Collections.emptyList();
 
     // In this method, a new list of contacts is set. After
     // we set the list, we also notify the adapter of our changes
-    public void setContactList(List<String> contactList) {
+    public void setContactList(List<Contact> contactList) {
         this.contactList = contactList;
         notifyDataSetChanged();
     }

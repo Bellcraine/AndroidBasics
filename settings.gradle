@@ -1,1 +1,1 @@
-include ':template', ':helloworld', ':exercise2', ':exercise3', ':lecture3', ':myexercise2', ':lecture4', ':myexercise3'
+include ':template', ':helloworld', ':exercise2', ':exercise3', ':lecture3', ':myexercise2', ':lecture4', ':myexercise3', ':myexercise4', ':1_activity_intent', ':2_recyclerview_adapter_viewholder',':3_data_model_permission'

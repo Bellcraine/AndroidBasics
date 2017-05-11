@@ -1,5 +1,6 @@
 package at.technikumwien.birthdaynotifier.ui.main;
 
+import android.Manifest;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -16,7 +17,7 @@ import android.widget.TextView;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
-import java.util.jar.Manifest;
+
 
 import at.technikumwien.birthdaynotifier.R;
 import at.technikumwien.birthdaynotifier.ui.main.model.data.Contact;
@@ -68,10 +69,10 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void checkContactsPermission() {
-        if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.READ_CONTACTS) == PackageManager.PERMISSION_GRANTED) {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) == PackageManager.PERMISSION_GRANTED) {
             onContactsPermissionGranted();
         } else {
-            ActivityCompat.requestPermissions(this, new String[] {android.Manifest.permission.READ_CONTACTS}, REQUEST_CODE_PERMISSION_READ_CONTACTS);
+            ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.READ_CONTACTS}, REQUEST_CODE_PERMISSION_READ_CONTACTS);
         }
     }
 

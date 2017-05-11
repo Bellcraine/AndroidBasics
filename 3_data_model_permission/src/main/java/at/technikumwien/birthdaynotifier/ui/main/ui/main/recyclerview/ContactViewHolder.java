@@ -4,6 +4,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import at.technikumwien.birthdaynotifier.R;
@@ -15,6 +16,7 @@ import at.technikumwien.birthdaynotifier.ui.main.model.data.Contact;
 class ContactViewHolder extends RecyclerView.ViewHolder {
 
     private CardView cardView;
+    private ImageView image;
     private TextView name;
     private TextView birthday;
 
@@ -23,6 +25,7 @@ class ContactViewHolder extends RecyclerView.ViewHolder {
 
         // Find our views
         cardView = (CardView) itemView.findViewById(R.id.card_view);
+        image = (ImageView) itemView.findViewById(R.id.image);
         name = (TextView) itemView.findViewById(R.id.name);
         birthday = (TextView) itemView.findViewById(R.id.birthday);
 
@@ -38,7 +41,13 @@ class ContactViewHolder extends RecyclerView.ViewHolder {
     // Here we set the new item model on our view holder and
     // update our views accordingly
     void update(Contact contact) {
+        if (contact.hasBirthday()) {
+            image.setImageResource(R.drawable.ic_cake_black_24dp);
+        } else {
+            image.setImageResource(R.drawable.ic_person_black);
+        }
+
         name.setText(contact.name());
-        birthday.setText(contact.getFormattedBirthday(contact.birthday()));
+        birthday.setText(contact.getFormattedBirthday());
     }
 }

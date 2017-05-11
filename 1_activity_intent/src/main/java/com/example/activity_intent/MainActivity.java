@@ -12,8 +12,9 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String SAVE_KEY = "246";
 
-    private EditText message = null;
-    private Button button = null;
+    private EditText message;
+    private Button button;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,11 +30,12 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = SecondActivity.getIntent(MainActivity.this, message.getText().toString());
+                Intent i = SecondActivity.getIntent(getBaseContext(), message.getText().toString());
                 startActivity(i);
             }
         });
     }
+
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {

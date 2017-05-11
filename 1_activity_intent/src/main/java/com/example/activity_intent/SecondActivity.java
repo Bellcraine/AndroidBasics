@@ -12,7 +12,7 @@ public class SecondActivity extends AppCompatActivity {
 
     private static final String MESSAGE_KEY = "123";
 
-    private TextView messageText = null;
+    private TextView messageText;
 
 
     @Override
@@ -24,7 +24,7 @@ public class SecondActivity extends AppCompatActivity {
 
         messageText = (TextView) findViewById(R.id.messageText);
 
-        String message = getIntent().getExtras().getString(MESSAGE_KEY);
+        String message = getIntent().getStringExtra(MESSAGE_KEY);
         messageText.setText(message);
 
         messageText.setOnClickListener(new View.OnClickListener() {
@@ -35,11 +35,11 @@ public class SecondActivity extends AppCompatActivity {
         });
     }
 
+
     public static Intent getIntent(Context context, String message) {
         Intent i = new Intent(context, SecondActivity.class);
         i.putExtra(MESSAGE_KEY, message);
         return i;
     }
-
 
 }

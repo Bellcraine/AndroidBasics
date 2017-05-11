@@ -22,7 +22,12 @@ public abstract class Contact {
         return new AutoValue_Contact (id, name, birthday);
     }
 
-    public String getFormattedBirthday(Date birthday) {
+    public String getFormattedBirthday() {
         return Utils.formatBirthday(birthday());
     }
+
+    public boolean hasBirthday() {
+        return Utils.isToday(birthday());
+    }
+
 }

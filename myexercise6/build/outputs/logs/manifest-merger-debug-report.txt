@@ -1,0 +1,130 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:5:5-72
+	android:name
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:5:22-69
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:7:22-65
+application
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:9:5-34:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Tommy\.android\build-cache\9f746e67df02bbeac8650a4f642028233b9115bd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Tommy\.android\build-cache\3a8a52e77ed95bb1f5607c6e04805b666de800d3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Tommy\.android\build-cache\fa91141a4aecd1082c288ce90900b1d5c1892db8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Tommy\.android\build-cache\cdbf2f904b3b03f13557c914a8ca8bfa9b2a6d7f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Tommy\.android\build-cache\06107ed9c6d8ac500ee4c97dfd4275071d4fb18d\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Tommy\.android\build-cache\c921c2a295ef53a787d458648fcbf8828cee8ea7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Tommy\.android\build-cache\640f3b815fe8cae60c349330fe905834727a7927\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Tommy\.android\build-cache\78496ec34242c79e47cb6f3ca2fe9d6c3b410aae\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Tommy\.android\build-cache\1df42314fecda13f056fff5f8c4f71d9796f1956\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Tommy\.android\build-cache\d414ce044e812ba51d80d04a5e750e4aa73eb19f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Tommy\.android\build-cache\b6b9c336741664f75451caca26af3dcb0bd7ecae\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Tommy\.android\build-cache\759d5bfa94ff4ea067d0e3a38853b7694d439a9b\output\AndroidManifest.xml:26:5-20
+	android:label
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:12:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:12:42-87
+	android:allowBackup
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:11:36-70
+	android:theme
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:13:36-67
+	android:name
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:10:9-54
+activity#at.technikumwien.lecture5.ui.MainActivity
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:14:19-75
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:18:27-74
+receiver#at.technikumwien.lecture5.receiver.AlarmReceiver
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:22:9-26:20
+	android:name
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:22:19-57
+intent-filter#at.technikumwien.lecture5.ALARM
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:23:13-25:29
+action#at.technikumwien.lecture5.ALARM
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:24:17-74
+	android:name
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:24:25-71
+receiver#at.technikumwien.lecture5.receiver.BootReceiver
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:28:9-32:20
+	android:name
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:28:19-56
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:29:13-31:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:30:17-79
+	android:name
+		ADDED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml:30:25-76
+uses-sdk
+INJECTED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\Tommy\.android\build-cache\9f746e67df02bbeac8650a4f642028233b9115bd\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Tommy\.android\build-cache\3a8a52e77ed95bb1f5607c6e04805b666de800d3\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Tommy\.android\build-cache\fa91141a4aecd1082c288ce90900b1d5c1892db8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Tommy\.android\build-cache\cdbf2f904b3b03f13557c914a8ca8bfa9b2a6d7f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Tommy\.android\build-cache\06107ed9c6d8ac500ee4c97dfd4275071d4fb18d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Tommy\.android\build-cache\c921c2a295ef53a787d458648fcbf8828cee8ea7\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Tommy\.android\build-cache\640f3b815fe8cae60c349330fe905834727a7927\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Tommy\.android\build-cache\78496ec34242c79e47cb6f3ca2fe9d6c3b410aae\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Tommy\.android\build-cache\1df42314fecda13f056fff5f8c4f71d9796f1956\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Tommy\.android\build-cache\6ef8e08b904d64361d3f7dcf0e1a6c27330879c7\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Tommy\.android\build-cache\d414ce044e812ba51d80d04a5e750e4aa73eb19f\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Tommy\.android\build-cache\b6b9c336741664f75451caca26af3dcb0bd7ecae\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Tommy\.android\build-cache\759d5bfa94ff4ea067d0e3a38853b7694d439a9b\output\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Tommy\.android\build-cache\9f746e67df02bbeac8650a4f642028233b9115bd\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Tommy\Documents\GitHub\Bellcraine_AndroidBasics\myexercise6\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Tommy\.android\build-cache\9f746e67df02bbeac8650a4f642028233b9115bd\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Tommy\.android\build-cache\3a8a52e77ed95bb1f5607c6e04805b666de800d3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Tommy\.android\build-cache\fa91141a4aecd1082c288ce90900b1d5c1892db8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Tommy\.android\build-cache\cdbf2f904b3b03f13557c914a8ca8bfa9b2a6d7f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Tommy\.android\build-cache\06107ed9c6d8ac500ee4c97dfd4275071d4fb18d\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Tommy\.android\build-cache\c921c2a295ef53a787d458648fcbf8828cee8ea7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Tommy\.android\build-cache\640f3b815fe8cae60c349330fe905834727a7927\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Tommy\.android\build-cache\78496ec34242c79e47cb6f3ca2fe9d6c3b410aae\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Tommy\.android\build-cache\1df42314fecda13f056fff5f8c4f71d9796f1956\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Tommy\.android\build-cache\6ef8e08b904d64361d3f7dcf0e1a6c27330879c7\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Tommy\.android\build-cache\d414ce044e812ba51d80d04a5e750e4aa73eb19f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Tommy\.android\build-cache\b6b9c336741664f75451caca26af3dcb0bd7ecae\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Tommy\.android\build-cache\759d5bfa94ff4ea067d0e3a38853b7694d439a9b\output\AndroidManifest.xml:22:5-24:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Tommy\.android\build-cache\9f746e67df02bbeac8650a4f642028233b9115bd\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Tommy\.android\build-cache\9f746e67df02bbeac8650a4f642028233b9115bd\output\AndroidManifest.xml:26:9-47

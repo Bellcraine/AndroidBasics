@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
     private void onContactsPermissionGranted () {
         Snackbar.make(recyclerView, "Permission granted!", Snackbar.LENGTH_LONG ).show();
         onContactsLoaded(Arrays.asList(
-                Contact.create(0, "Max Mustermann", Utils.parseDate("2010-01-13")),
+                Contact.create(0, "Max Mustermann", Utils.parseDate("2010-01-14")),
                 Contact.create(1, "Maria Musterfrau", Utils.parseDate("2010-01-14")),
                 Contact.create(2, "Stefan Müller", new Date()),
                 Contact.create(3,  "Manuel Mustermann", Utils.parseDate("2010-01-23")),
